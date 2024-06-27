@@ -1,5 +1,5 @@
 <template>
-    <div class="mainfooter">
+<div class="mainfooter">
     <div class="social-links">
         <a href="https://github.com/DevDelessard/Portfolio.git " target="_blank">
             <div class="link">
@@ -16,7 +16,6 @@
                 <img src="../assets/facebook.png" alt="Facebook logo">
             </div>
         </a>
-        
     </div>
     <div>
         Dernière mise à jour le 13/06/2024

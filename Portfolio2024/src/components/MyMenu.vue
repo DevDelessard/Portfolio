@@ -99,7 +99,28 @@
         padding: 5px;
         margin: 5px;
     }
+    #projects-button:active{
+        text-decoration: underline;
+    } /*ça ne marche pas - Probablement du au Router*/
 
+    .projects-button2{
+        background-color: rgb(191, 106, 2);
+        border-radius: 2rem;
+        padding: 5px;
+        margin: 5px;
+    }
+    .projects-button3{
+        background-color: rgb(191, 106, 2);
+        border-radius: 2rem;
+        padding: 5px;
+        margin: 5px;
+    }
+    .projects-button4{
+        background-color: rgb(191, 106, 2);
+        border-radius: 2rem;
+        padding: 5px;
+        margin: 5px;
+    }
     .projects-button a{
         text-decoration: none;
     }

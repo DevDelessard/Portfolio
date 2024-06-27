@@ -133,14 +133,14 @@ h1{
     color:red;
 }
 .form-style input[type=submit], .form-style input[type=reset]{
-    background: #4eb5f1;
+    background: rgb(191, 106, 2);
     padding: 8px 15px 8px 15px;
     border: none;
     color: #fff;
     border-radius: 2rem;
 }
 .form-style input[type=submit]:hover, .form-style input[type=reset]:hover{
-    background: #4eb5f1;
+    background: rgb(191, 106, 2);
     box-shadow:none;
     -moz-box-shadow:none;
     -webkit-box-shadow:none;

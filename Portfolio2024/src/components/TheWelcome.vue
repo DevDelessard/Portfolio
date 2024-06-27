@@ -7,7 +7,7 @@ import ContactForm from './ContactForm.vue'
   <div class="presentation">
     <div class="titre1">
       <div class="media1">
-        <a href="#top"><img src="../assets/Toad.gif" alt="Profile picture" href="#top"></a>
+        <a href="#top"><img src="../assets/Toad.gif" alt="Profile picture"></a>
       </div>
     <h1> Bienvenue sur le Portfolio de Charles DELESSARD !</h1> 
     </div>
@@ -23,14 +23,12 @@ import ContactForm from './ContactForm.vue'
         </div>
         <div class="ensemble">
             <div class="main1">
-                <div class="projects-button1">
-                    <nav>
-                        <RouterLink tag="a" to="/TheCreation" >
-                            Mon Cv
-                            <a href="#top"><img src="../assets/AperçuCv.PNG"></a>
-                        </RouterLink>
-                    </nav>
-                </div>
+              <div class="projects-button1">
+                <RouterLink tag="a" to="/TheCreation" >
+                Mon Cv
+                <a href="#top"><img src="../assets/AperçuCv.PNG"></a>
+                </RouterLink>
+              </div>
             </div>
             <div class="main2">
                 <div class="projects-button2">
@@ -58,14 +56,12 @@ import ContactForm from './ContactForm.vue'
     padding-right: 10rem;
     align-items: center;
   }
-
   .titre2{
     display: flex;
     justify-content: center;
     padding-right: 10rem;
     align-items: center;
   }
-
   .link a{
     text-decoration: none;
     color: rgb(186, 84, 6);
@@ -84,7 +80,6 @@ import ContactForm from './ContactForm.vue'
   .logo img{
         height: 5rem;
     }
-
   .texte{
     font-size: 1.5rem;
   }
@@ -92,31 +87,23 @@ import ContactForm from './ContactForm.vue'
     display: flex;
     height: 10rem;
     
-
   }
   .media2 img{
     display: flex;
     height: 10rem;
-
   }
-
   #All :hover{
         color: rgb(35, 7, 61);
     }
-
-
     .ensemble{
         display: flex inline;
         justify-content: center;
         
     }
-
-
     .main1{
         display: flex;
         flex-direction: column;
     }
-
     .main1 img{
         height: 20rem;
         width: 20rem;
